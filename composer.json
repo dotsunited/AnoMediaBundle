@@ -1,0 +1,25 @@
+{
+    "name": "ano/media-bundle",
+    "description": "Anonymation media bundle",
+    "keywords": ["media"],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Benjamin Dulau",
+            "email": "benjamin.dulau@anonymation.com",
+            "homepage": "http://www.anonymation.com"
+        }
+    ],
+    "require": {
+        "symfony/framework-bundle": ">=2.1",
+        "knplabs/gaufrette": "0.1.*"
+    },
+    "suggest": {
+        "imagine/Imagine": "0.2.*"
+    },
+    "autoload": {
+        "psr-0": { "Ano\\Bundle\\MediaBundle": "" }
+    },
+    "target-dir": "Ano/Bundle/MediaBundle"
+}
